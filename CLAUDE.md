@@ -4,23 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Sidekick Air landing page — a Next.js 15 marketing site for an inflatable therapy table product. The main application lives in `sidekick-air/` subdirectory.
+Sidekick Air landing page — a Next.js 15 marketing site for an inflatable therapy table product.
 
 ## Commands
 
-All commands run from `sidekick-air/` directory:
-
 ```bash
-cd sidekick-air
-
-# Development
 npm run dev          # Start dev server at localhost:3000
-
-# Build & Production
 npm run build        # Create production build (standalone output)
 npm run start        # Run production server
-
-# Linting
 npm run lint         # ESLint check
 ```
 
@@ -35,7 +26,6 @@ npm run lint         # ESLint check
 
 ### Project Structure
 ```
-sidekick-air/
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx          # Root layout with fonts (Space Grotesk, DM Sans)
